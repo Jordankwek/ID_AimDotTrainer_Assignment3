@@ -1,4 +1,4 @@
-#bug-form h3{
+.form-head{
     margin-left: 1%;
 }
 
@@ -6,12 +6,19 @@ input{
     border-radius: 15px;
     margin: 1%;
     width: 20%;
-    height: 35px;
+    height: 40px;
 }
 
 select{
     border-radius:  15px;
     margin: 1%;
     width: 20%;
-    height: 35px;
+    height: 40px;
+}
+
+textarea{
+    border-radius: 15px;
+    margin: 1%;
+    width: 20%;
+    height: 130px;
 }

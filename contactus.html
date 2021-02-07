@@ -21,15 +21,25 @@
     <div class="form-container">
         <div id="bug-form">       
             <form>
-                <h3>Report a bug</h3>
-                <input type="email" id = "email" placeholder="Enter your email" required/><br>
-                <select id="category" required>
+                <h3 class = "form-head">Report a bug</h3>
+                <input type="email" id = "femail" placeholder="Enter your email" required/><br>
+                <select id="fcategory" required>
                     <option value="" selected>Type of bug</option>
                     <option value="Crash">Crash</option>
                     <option value="Text">Text Problem</option>
                     <option value="Others">Others</option>
                 </select><br>
-                <input type="text" placeholder="Description" autocomplete="off" required><br>
+                <textarea id ="fdescription" placeholder="Description"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="contact-form">
+            <form>
+                <h3 class = "form-head">Contact Us</h3>
+                <input type="text" id="fname" placeholder="Enter your full name" required/><br>
+                <input type="email" id = "femail" placeholder="Enter your email" required/><br>
+                <input type="tel" id = "ftel" placeholder="Enter your phone number" required/><br>
+                <textarea id ="fmessage" placeholder="Message"></textarea><br>
                 <input type="submit" value="Submit">
             </form>
         </div>
