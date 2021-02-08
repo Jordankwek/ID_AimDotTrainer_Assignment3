@@ -46,9 +46,6 @@ nav a{
     background-color: white;
 }
 
-
-
-
 #bug-form h3{
     margin-left: 1%;
 }
@@ -67,7 +64,12 @@ select{
     height: 35px;
 }
 
-
+textarea{
+    border-radius: 15px;
+    margin: 1%;
+    width: 20%;
+    height: 120px;
+}
 
 
 /*media query*/
