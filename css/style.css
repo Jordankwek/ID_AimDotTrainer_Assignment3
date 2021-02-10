@@ -14,6 +14,8 @@ nav{
     height: 10%;
     width: 100%;
     position: fixed;
+    user-select: none;
+    -webkit-user-select: none;
 }
 nav a{
     text-decoration: none;
@@ -71,6 +73,20 @@ textarea{
     height: 120px;
 }
 
+.shooting-container{
+    height: 90%;
+    width: 100%;
+}
+
+#aim{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    -webkit-user-drag: none;
+}
 
 /*media query*/
 @media (max-width: 768px){
