@@ -3,51 +3,6 @@
     scroll-behavior: smooth;
 }
 
-/*nav bar*/
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    background-color: black;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    position: fixed;
-    user-select: none;
-    -webkit-user-select: none;
-}
-nav a{
-    text-decoration: none;
-}
-.logo{
-    width: 40%;
-}
-.logo a{
-    color: #1DB954;
-}
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-}
-.nav-links a{
-    color: white;
-}
-.nav-links li{
-    list-style: none;
-}
-.burger{
-    display: none;
-    cursor: pointer
-}
-.burger div{
-    width: 25px;
-    height: 3px;
-    margin: 5px;
-    background-color: white;
-}
-
 #bug-form h3{
     margin-left: 1%;
 }
