@@ -9,10 +9,9 @@ function randomInteger(min, max) {
 
 dot.on('click', function(){
     var vertical = randomInteger(10, 93) + "%";
-    var horizontal = randomInteger(0, 95) + "%";
+    var horizontal = randomInteger(0, 93) + "%";
     dot.css("top", vertical);
     dot.css("left", horizontal);
     points += 1;
 })
 
-$("html").css("user-select", none);
