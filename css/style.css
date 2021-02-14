@@ -73,10 +73,10 @@ textarea{
     height: 120px;
 }
 
-.shooting-container{
+.body-container{
     width: 100%;
-    max-height: 100%;
-    background-color: burlywood;
+    height: 90%;
+    background-color: white;
 }
 
 #aim{
