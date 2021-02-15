@@ -3,6 +3,20 @@
     scroll-behavior: smooth;
 }
 
+#intro{
+    height: 90vh;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+#gamePics{
+    max-height: 50vh;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
 #bug-form h3{
     margin-left: 1%;
 }
