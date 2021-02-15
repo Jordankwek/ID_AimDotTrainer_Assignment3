@@ -3,7 +3,6 @@
     scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
 #intro{
     height: 90vh;
 }
@@ -16,13 +15,13 @@
     max-height: 50vh;
     margin-top:auto;
     margin-bottom: auto;
-=======
+}
+
 .body {
     height: 100%;
     margin: 0%;
     -webkit-user-select: none;
     user-select: none;
->>>>>>> 52f8b10224ef09ce67fb743424c2bd6b9fcdace9
 }
 
 #bug-form h3{
