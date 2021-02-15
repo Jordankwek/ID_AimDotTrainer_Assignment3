@@ -3,6 +3,13 @@
     scroll-behavior: smooth;
 }
 
+.body {
+    height: 100%;
+    margin: 0%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
 #bug-form h3{
     margin-left: 1%;
 }
@@ -31,18 +38,54 @@ textarea{
 .body-container{
     width: 100%;
     height: 90%;
-    background-color: white;
+    overflow: hidden;
+}
+
+.game-title{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.shooting-container{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    border: 2px black solid;
+}
+
+.shooting-container h5{
+    text-align: center;
+    position: relative;
+    top: 53%;
+}
+
+.point-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.point-item{
+    display: flex;
+    padding-right: 2%;
+}
+
+.timer-item{
+    display: flex;
 }
 
 #aim{
     height: 50px;
     width: 50px;
+    text-align: center;
     background-color: greenyellow;
     border-radius: 50%;
     position: absolute;
-    top: 10%;
-    -webkit-user-drag: none;
-    user-select: none;
+    top: 52%;
+
+    z-index: 2;
 }
 
 /*media query*/
@@ -67,6 +110,17 @@ textarea{
     .burger{
         display: block;
     }
+
+    .shooting-container{
+        width: 100%;
+    }
+
+    #aim{
+        left: 46%;
+        top: 40%;
+    }
+
+
 }
 
 .nav-active{
