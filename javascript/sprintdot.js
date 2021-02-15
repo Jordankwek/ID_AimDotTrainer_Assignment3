@@ -4,7 +4,7 @@ var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var totalSeconds = 0;
 var points = 0;
-var container = document.getElementById('blitz');
+var container = document.getElementById('sprint');
 var timer;
 var seconds;
 var minutes;
@@ -15,7 +15,7 @@ function randomInteger(min, max) {
 }
 
 dot.on('click', function (event) {
-  event.preventDefault();
+  
   var vertical = randomInteger(29, 83) + "%";
   var horizontal = randomInteger(21, 75) + "%";
   title.fadeOut();
