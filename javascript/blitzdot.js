@@ -46,7 +46,7 @@ dot.on('click', function (event) {
     }
   }
 
-  if (seconds > 5)
+  if (seconds > 30)
   {
     clearInterval(timer);
     dot.hide();
