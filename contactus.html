@@ -40,29 +40,29 @@
     </div>
   </nav>
   
-  <div class="form-container">
-    <div id="bug-form">
-      <form>
+  <div class="form-container d-flex flex-wrap justify-content-around" style = "margin: 15%">
+    <div id="bug-form" class="d-flex col-9 col-md-4">       
+        <form class="col-12">
         <h3 class="form-head">Report a bug</h3>
-        <input type="email" id="femail" placeholder="Enter your email" required /><br>
-        <select id="fcategory" required>
-          <option value="" selected>Type of bug</option>
-          <option value="Crash">Crash</option>
-          <option value="Text">Text Problem</option>
-          <option value="Others">Others</option>
+        <input type="email" id = "femail" class = "col-12" placeholder="Enter your email" required/><br>
+        <select class = "col-12" id="fcategory" required>
+            <option value="" selected>Type of bug</option>
+            <option value="Crash">Crash</option>
+            <option value="Text">Text Problem</option>
+            <option value="Others">Others</option>
         </select><br>
-        <textarea id="fdescription" placeholder="Description"></textarea><br>
-        <input type="submit" value="Submit">
+        <textarea class = "col-12" id ="fdescription" placeholder="Description"></textarea><br>
+        <input class = "col-12" type="submit" value="Submit">
       </form>
     </div>
-    <div id="contact-form">
-      <form>
+    <div id="contact-form" class="d-flex col-9 col-md-4">
+      <form class="col-12">
         <h3 class="form-head">Contact Us</h3>
-        <input type="text" id="fname" placeholder="Enter your full name" required /><br>
-        <input type="email" id="femail" placeholder="Enter your email" required /><br>
-        <input type="tel" id="ftel" placeholder="Enter your phone number" required /><br>
-        <textarea id="fmessage" placeholder="Message"></textarea><br>
-        <input type="submit" value="Submit">
+        <input type="text" class="col-12" id="fname" placeholder="Enter your full name" required/><br>
+        <input type="email" class="col-12" id = "femail" placeholder="Enter your email" required/><br>
+        <input type="tel" class="col-12" id = "ftel" placeholder="Enter your phone number" required/><br>
+        <textarea id ="fmessage" class="col-12" placeholder="Message"></textarea><br>
+        <input type="submit" class="col-12" value="Submit">
       </form>
     </div>
   </div>

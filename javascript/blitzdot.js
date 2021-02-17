@@ -40,8 +40,8 @@ dot.on('click', function (event) {
         dot.hide();
         let post = `
           <div class = "record" style="position: absolute; text-alight: centre; top: 45%">
-            <h3>Game Ended</h3>
-            <label>Points earnt in 30 seconds : ${points}</label>
+            <h1>Game Ended</h1>
+            <h5>Points earnt in 30 seconds : ${points}</h5>
           </div>
         `;
         container.insertAdjacentHTML('afterbegin',post);

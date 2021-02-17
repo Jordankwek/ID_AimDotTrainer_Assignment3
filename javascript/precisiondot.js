@@ -46,14 +46,14 @@ dot.on('click', function (event) {
     }
   }
 
-  if(points == 5)
+  if(points == 25)
   {
     clearInterval(timer);
     dot.hide();
     let post = `
       <div class = "record" style="position: absolute; text-alight: centre; top: 45%">
-        <h3>Game Ended</h3>
-        <label>Time taken to complete : ${minutes}:${seconds}</label>
+        <h1>Game Ended</h1>
+        <h5>Time taken to complete : ${minutes}:${seconds}</h5>
       </div>
     `;
     container.insertAdjacentHTML('afterbegin',post);
