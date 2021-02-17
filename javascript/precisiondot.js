@@ -46,7 +46,7 @@ dot.on('click', function (event) {
     }
   }
 
-  if(points == 5)
+  if(points == 25)
   {
     clearInterval(timer);
     dot.hide();
