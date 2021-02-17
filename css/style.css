@@ -13,6 +13,12 @@
 .navbar-toggler{
     margin-right: 10px;
 }
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
 .dropdown-menu > a:hover{
     background-color: rgb(61, 61, 61);
 }
@@ -75,7 +81,6 @@
     transition: 0.5s ease;
     opacity: 0;
 }
-
 .card-img-top{
     margin: auto;
     opacity: 1;
