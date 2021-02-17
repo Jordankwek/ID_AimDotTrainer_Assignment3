@@ -4,10 +4,10 @@ var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var totalSeconds = 0;
 var points = 0;
-var container = document.getElementById('zen');
+var container = document.getElementById('precision');
 var timer;
-var seconds = 0;
-var minutes = 0;
+var seconds;
+var minutes;
 
 //From stackoverflow
 function randomInteger(min, max) {
@@ -45,22 +45,18 @@ dot.on('click', function (event) {
       }
     }
   }
-})
 
-function stopGame()
-{
-  if (points != 0)
+  if(points == 5)
   {
     clearInterval(timer);
     dot.hide();
     let post = `
       <div class = "record" style="position: absolute; text-alight: centre; top: 45%">
-        <h1>Game Ended</h1>
-        <h5>Time spent on game : ${minutes}:${seconds}</h5>
-        <h5>Points earnt : ${points}</h5>
+        <h3>Game Ended</h3>
+        <label>Time taken to complete : ${minutes}:${seconds}</label>
       </div>
     `;
     container.insertAdjacentHTML('afterbegin',post);
   }
-}
+})
 

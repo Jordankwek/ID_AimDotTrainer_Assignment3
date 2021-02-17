@@ -112,17 +112,19 @@
     margin-left: 1%;
 }
 
+#contact-form h3{
+    margin-left: 1%;
+}
+
 input{
     border-radius: 15px;
     margin: 1%;
-    width: 20%;
     height: 35px;
 }
 
 select{
     border-radius:  15px;
     margin: 1%;
-    width: 20%;
     height: 35px;
 }
 
