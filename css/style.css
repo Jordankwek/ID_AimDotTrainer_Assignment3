@@ -4,13 +4,32 @@
 }
 
 /*Navbar*/
+.navbar{
+    width: 100%;
+}
 .navbar-brand{
     margin-left: 10px;
 }
 .navbar-toggler{
     margin-right: 10px;
 }
+.dropdown-menu > a:hover{
+    background-color: rgb(61, 61, 61);
+}
 
+
+/*Intro Page*/
+#intro{
+    height: calc(100vh - 56px);
+    width: 100%;
+}
+.introtitle{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+.intropara{
+    width: 75%;
+}
 /*Carousel in intro*/
 .carousel-inner img{
     width: 100%;
@@ -18,23 +37,40 @@
 }
 #gamePics{
     max-height: 50vh;
-    margin-top:auto;
-    margin-bottom: auto;
-}
-
-/*Intro Page*/
-#intro{
-    height: 92vh;
-}
-.introtitle{
-    margin: 5vh;
 }
 
 /*About Page*/
 #about{
     height: 100vh;
+    width: 100%;
+}
+.abouttitle{
+    margin-top: calc(10vh + 56px);
+    margin-bottom: 13vh;
 }
 
+/*Modes Page*/
+#modes{
+    height: 100vh;
+    width: 100%;
+}
+.modestitle{
+    margin-top: calc(10vh + 56px);
+    margin-bottom: 13vh;
+}
+.card{
+    width: 25vh;
+    height: 25vh;
+    opacity: 80%;
+    
+}
+.card h3{
+    color: black;
+}
+.card-img-top{
+    margin: auto;
+    opacity: 30%;
+}
 
 .body {
     height: 100%;
@@ -124,6 +160,28 @@ textarea{
 
 /*media query*/
 @media (max-width: 768px){
+    /*Intro page*/
+    .intropara{
+        margin-top: 3vh;
+    }
+    .introtitle{
+        margin-top: 6vh;
+        margin-bottom: 10vh;
+    }
+
+    /*About page*/
+    .abouttitle{
+        margin-top: calc(6vh + 56px);
+        margin-bottom: 10vh;
+    }
+    
+    /*Modes page*/
+    .abouttitle{
+        margin-top: calc(6vh + 56px);
+        margin-bottom: 10vh;
+    }
+    
+    
     .shooting-container{
         width: 100%;
     }

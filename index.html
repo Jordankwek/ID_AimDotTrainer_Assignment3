@@ -18,6 +18,7 @@
 </head>
 
 <body class="body">
+
   <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
     <a class="navbar-brand" href="index.html">Aim Trainer</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -25,7 +26,15 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="blitz.html">Play Games</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+            Play Games
+          </a>
+          <div class="dropdown-menu bg-dark">
+            <a class="dropdown-item text-light" href="blitz.html">Blitz</a>
+            <a class="dropdown-item text-light" href="sprint.html">Sprint</a>
+          </div>
+        </li>
         <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
       </ul>
     </div>
@@ -36,19 +45,8 @@
       <h1 class="introtitle text-light">Aim Dot Trainer</h1>
     </div>
     <div class="container-fluid row h-75 mx-auto">
-      <div class="col-md-6 d-flex justify-content-center">
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
         <div id="gamePics" class="carousel slide carousel-fade" data-ride="carousel">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="sprint.html">Play Games</a></li>
-                <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
-
           <ul class="carousel-indicators">
             <li data-target="#gamePics" data-slide-to="0" class="active"></li>
             <li data-target="#gamePics" data-slide-to="1"></li>
@@ -89,7 +87,7 @@
 
   <section id="about">
     <div class="d-flex align-items-center justify-content-center">
-      <h1 class="abouttitle">Aim Dot Trainer</h1>
+      <h1 class="abouttitle">About the Game</h1>
     </div>
     <div class="container-fluid row">
       <div class="col-md-6 d-flex text-center align-items-center justify-content-center">
@@ -99,8 +97,34 @@
           where the purpose is to kill as many enemies as possible</p>
       </div>
       <div class="col-md-6">
-        <img src="Images/websitelogo.png">
+        <div class="temp"></div>
       </div>
+    </div>
+  </section>
+
+  <section class="bg-dark" id="modes">
+    <div class="d-flex align-items-center justify-content-center">
+      <h1 class="modestitle text-light">Choose your Gamemode</h1>
+    </div>
+    <div class="container-fluid row d-flex justify-content-evenly">
+      <a href="blitz.html" class="col-md-4 card bg-secondary">
+        <img class="card-img-top" src="Images/blitz.png" alt="Blitz image">
+        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+          <h3 class="card-title">Blitz</h4>
+        </div>
+      </a>
+      <a href="sprint.html" class="col-md-4 card bg-secondary">
+        <img class="card-img-top" src="Images/sprint.png" alt="Sprint image">
+        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+          <h3 class="card-title">Sprint</h4>
+        </div>
+      </a>
+      <a href="blitz.html" class="col-md-4 card bg-secondary">
+        <img class="card-img-top" src="Images/blitz.png" alt="Blitz image">
+        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+          <h3 class="card-title">Blitz</h4>
+        </div>
+      </a>
     </div>
   </section>
 
