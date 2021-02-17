@@ -2,12 +2,11 @@ dot = $('#aim');
 title = $('.shooting-container h5');
 var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
-var totalSeconds = 0;
+var totalSeconds = 30;
 var points = 0;
 var container = document.getElementById('blitz');
 var timer;
 var seconds;
-var minutes;
 
 //From stackoverflow
 function randomInteger(min, max) {
@@ -28,35 +27,27 @@ dot.on('click', function (event) {
     timer = setInterval(setTime, 1000);
 
     function setTime() {
-      ++totalSeconds;
-      seconds = pad(totalSeconds % 60);
-      minutes = pad(parseInt(totalSeconds / 60));
-      secondsLabel.innerHTML = seconds;
-      minutesLabel.innerHTML = minutes;
-    }
-
-    function pad(val) {
-      var valString = val + "";
-      if (valString.length < 2) {
-        return "0" + valString;
+      totalSeconds -= 1;
+      var time = totalSeconds;
+      if (time < 10)
+      {
+        time = "0" + time;
       }
-      else {
-        return valString;
+      secondsLabel.innerHTML = time;
+      if (totalSeconds == 0)
+      {
+        clearInterval(timer);
+        dot.hide();
+        let post = `
+          <div class = "record" style="position: absolute; text-alight: centre; top: 45%">
+            <h3>Game Ended</h3>
+            <label>Points earnt in 30 seconds : ${points}</label>
+          </div>
+        `;
+        container.insertAdjacentHTML('afterbegin',post);
       }
     }
   }
 
-  if (seconds > 30)
-  {
-    clearInterval(timer);
-    dot.hide();
-    let post = `
-      <div class = "record" style="position: absolute; text-alight: centre; top: 45%">
-        <h3>Game Ended</h3>
-        <label>Points earnt in 30 seconds : ${points}</label>
-      </div>
-    `;
-    container.insertAdjacentHTML('afterbegin',post);
-  }
 })
 

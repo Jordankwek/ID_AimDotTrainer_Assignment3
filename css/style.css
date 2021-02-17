@@ -67,12 +67,13 @@ textarea{
     width: 900px;
     height: 500px;
     border: 2px black solid;
+    z-index: 1;
 }
 
 .shooting-container h5{
     text-align: center;
     position: relative;
-    top: 53%;
+    top: 55%;
 }
 
 .point-container{
@@ -86,8 +87,22 @@ textarea{
     padding-right: 2%;
 }
 
+.stop-item{
+    display: flex;
+    padding-right: 2%;
+}
+
 .timer-item{
     display: flex;
+    padding-right: 2%;
+}
+
+.refresh-item:hover{
+    color: red;
+}
+
+.stop-item:hover{
+    color: red;
 }
 
 #aim{
@@ -98,9 +113,10 @@ textarea{
     border-radius: 50%;
     position: absolute;
     top: 52%;
-
     z-index: 2;
 }
+
+
 
 /*media query*/
 @media (max-width: 768px){
