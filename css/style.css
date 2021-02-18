@@ -62,7 +62,7 @@
 }
 .modestitle{
     margin-top: calc(10vh + 56px);
-    margin-bottom: 13vh;
+    margin-bottom: 2vh;
 }
 #modecards{
     width: 100%;
@@ -198,7 +198,6 @@ textarea{
     height: 50px;
     width: 50px;
     text-align: center;
-    background-color: greenyellow;
     border-radius: 50%;
     position: absolute;
     top: 52%;
