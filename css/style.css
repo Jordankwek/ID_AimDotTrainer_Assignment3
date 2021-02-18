@@ -3,14 +3,6 @@
     scroll-behavior: smooth;
 }
 
-#backgroundgif{
-    position:fixed;
-    z-index: -1;
-    width: 100%;
-    margin-top: 54px;
-    height: calc(100vh - 56px);
-}
-
 /*Navbar*/
 .navbar{
     width: 100%;
@@ -61,6 +53,13 @@
 .abouttitle{
     margin-top: calc(10vh + 56px);
     margin-bottom: 13vh;
+}
+#aboutgif{
+    width: 45vw;
+    height: auto;
+}
+.intropara{
+    width: 75%;
 }
 
 /*Modes Page*/
@@ -269,6 +268,9 @@ textarea{
     .abouttitle{
         margin-top: calc(6vh + 56px);
         margin-bottom: 10vh;
+    }
+    #aboutgif{
+        width: 90vw;
     }
     
     /*Modes page*/
