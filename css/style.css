@@ -3,6 +3,14 @@
     scroll-behavior: smooth;
 }
 
+#backgroundgif{
+    position:fixed;
+    z-index: -1;
+    width: 100%;
+    margin-top: 54px;
+    height: calc(100vh - 56px);
+}
+
 /*Navbar*/
 .navbar{
     width: 100%;
@@ -22,7 +30,6 @@
 .dropdown-menu > a:hover{
     background-color: rgb(61, 61, 61);
 }
-
 
 /*Intro Page*/
 #intro{
@@ -49,6 +56,7 @@
 #about{
     height: 100vh;
     width: 100%;
+    z-index: -2;
 }
 .abouttitle{
     margin-top: calc(10vh + 56px);
