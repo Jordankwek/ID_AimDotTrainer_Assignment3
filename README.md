@@ -1,4 +1,7 @@
 # ID_AimDotTrainer_Assignment3
+
+GitHub Page link - https://jordankwek.github.io/ID_AimDotTrainer_Assignment3/
+
 Assignment 3: Aim Dot Trainer
 This website allows users to play an "aim training" game, where they click on a target that randomly appears in a fixed play area. Depending on the different modes, this repeats for a certain number of point (1 target = 1 point), or a fixed time. There are a total of 4 modes to this game: Blitz, Sprint, Precision and Zen, which will be explained later on. Additionally, a reddit API is used to show users various articles related to FPS aiming. 
 
