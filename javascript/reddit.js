@@ -11,7 +11,7 @@ fetch(url)
         for (var i=0; i<postArray.length; i++){
             currentPost = postArray[i].data;
             post += `
-                <div class="post col-6 text-center" style="border: 1px solid black; height: 180px; padding: 10px;"> 
+                <div class="post col-6 text-center" style="border: 2px solid white; height: 160px; padding: 10px;"> 
                     <h3 class="title">${currentPost.title}</h3>
                     <p class="publisher">By : ${currentPost.author}</p>
                     <a href = ${currentPost.url}>Click to view reddit post</a>
