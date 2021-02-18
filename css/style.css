@@ -273,6 +273,11 @@ textarea{
 
 /*media query*/
 @media (max-width: 768px){
+    /*Navbar*/
+    .navbar-brand p{
+        display: none;
+    }
+
     /*Intro page*/
     .intropara{
         margin-top: 3vh;
