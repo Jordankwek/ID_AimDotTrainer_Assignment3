@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100%;
     z-index: -1;
-    opacity: 20%;
+    opacity: 1;
 }
 
 /*Navbar*/
@@ -34,7 +34,8 @@
 #intro{
     height: calc(100vh - 56px);
     width: 100%;
-    background-color: rgba(30, 30, 30, 0.6)
+    opacity: 90%;
+    background-color: rgba(3, 49, 175, 0.6);
 }
 .introtitle{
     margin-top: 10vh;
@@ -56,7 +57,7 @@
 #about{
     height: 100vh;
     width: 100%;
-    background-color: rgba(15, 15, 15, 0.6);
+    background-color: rgba(54, 2, 136, 0.6);
 }
 .abouttitle{
     margin-top: calc(10vh + 56px);
@@ -74,7 +75,7 @@
 #modes{
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(104, 6, 134, 0.6);
 }
 .modestitle{
     margin-top: calc(10vh + 56px);
@@ -225,7 +226,7 @@ textarea{
 #formcontainer{
     height: 60vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(86, 1, 97, 0.9);
 }
 #bug-form, #contact-form{
     height: 50vh;
