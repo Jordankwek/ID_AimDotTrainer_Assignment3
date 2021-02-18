@@ -42,8 +42,6 @@ dot.on('click', function (event) {
           <div class = "record" style="position: absolute; text-alight: centre; top: 45%; z-index: 2">
             <h1>Game Ended</h1>
             <h5>Points earnt in 30 seconds : ${points}</h5>
-            <input type="text" id="pname" placeholder="Enter your name" required />
-            <input id = "blitzsubmit" type="submit" value="Submit">
           </div>
         `;
         container.insertAdjacentHTML('afterbegin',post);
