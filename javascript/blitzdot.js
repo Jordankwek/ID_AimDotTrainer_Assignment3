@@ -53,7 +53,7 @@ dot.on('click', function (event) {
 
 })
 
-$(document).ready(function (){
+/* $(document).ready(function (){
   const APIKEY = "57e086546f4c13fec6c77d472c74f155d9145";
   $("#blitzsubmit").on("click",function(e){
     e.preventDefault();
@@ -83,4 +83,4 @@ $(document).ready(function (){
     });
 
   })
-})
+}) */

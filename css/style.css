@@ -18,6 +18,28 @@
     opacity: 15%;
 }
 
+
+.reddit-feed{
+    border-bottom: solid;
+}
+
+.reddit-feed h1{
+    margin-top: 4%;
+}
+
+#reddit-post{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 5%;
+    border-top: solid;
+}
+
+
 /*Navbar*/
 .navbar{
     width: 100%;

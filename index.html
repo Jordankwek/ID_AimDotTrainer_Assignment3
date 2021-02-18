@@ -20,9 +20,10 @@
 <body class="body" onload="checkBg()">
   <img src="Images/websitebg.jpg" id="websitebackground">
   <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand d-flex justify-content-left " href="index.html" style = "margin-left: 40px;">
+    <a class="navbar-brand d-flex justify-content-left " href="index.html" style="margin-left: 40px;">
       <lottie-player draggable="false" id="aim" src="https://assets8.lottiefiles.com/packages/lf20_Yf29Ko.json"
-        background="transparent" speed="1" style="position: relative; height: 30px; width: 30px;" loop autoplay></lottie-player>
+        background="transparent" speed="1" style="position: relative; height: 30px; width: 30px;" loop autoplay>
+      </lottie-player>
       <p style="height: 10px;">Aim Trainer</p>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -41,7 +42,8 @@
             <a class="dropdown-item text-light" href="precision.html">Precision</a>
           </div>
         </li>
-        <li class="nav-item" style="margin-left: 20px;"><a class="nav-link" onclick="changeBg()">Change Background</a></li>
+        <li class="nav-item" style="margin-left: 20px;"><a class="nav-link" onclick="changeBg()">Change Background</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -140,6 +142,11 @@
       </a>
     </div>
   </section>
+  <div class="reddit-feed" style="text-align: center;">
+    <h1>Reddit Feed</h1>
+    <p>Tips on how you can improve your aim</p>
+    <div id="reddit-post"></div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -184,6 +191,7 @@
   <script src="javascript/contactpage.js"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="javascript/changebg.js"></script>
+  <script src="javascript/reddit.js"></script>
 </footer>
 
 </html>
