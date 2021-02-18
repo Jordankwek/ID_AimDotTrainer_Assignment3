@@ -222,11 +222,11 @@ textarea{
 
 /*Contact us page*/
 #formcontainer{
-    height: calc(100vh - 56px);
+    height: 60vh;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 #bug-form, #contact-form{
-    border: 3px solid black;
     height: 50vh;
     width: 40vh;
     align-items: center;

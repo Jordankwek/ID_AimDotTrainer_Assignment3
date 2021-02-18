@@ -14,7 +14,7 @@ $('#bugexit').on('click', function (event) {
 
 $('#contact-form').on('click', function (event) {
     if (checkcontact % 2 != 0)
-        $('#contactformitem').css("height", "43vh");
+        $('#contactformitem').css("height", "45vh");
     checkcontact += 1;
 })
 
