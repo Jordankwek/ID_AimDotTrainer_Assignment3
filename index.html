@@ -20,7 +20,11 @@
 <body class="body">
   <img src="Images/altwebsitebg.jpg" id="websitebackground">
   <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand" href="index.html">Aim Trainer</a>
+    <a class="navbar-brand d-flex justify-content-left " href="index.html">
+      <lottie-player draggable="false" id="aim" src="https://assets8.lottiefiles.com/packages/lf20_Yf29Ko.json"
+        background="transparent" speed="1" style="position: relative; height: 30px; width: 30px;" loop autoplay></lottie-player>
+      <p style="height: 10px;">Aim Trainer</p>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -93,7 +97,8 @@
     </div>
     <div class="container-fluid row">
       <div class="col-md-6 d-flex text-center align-items-center justify-content-center">
-        <p class="aboutpara text-light">The various modes are tailored to improve different aspects of FPS gaming. Modes such as sprint and
+        <p class="aboutpara text-light">The various modes are tailored to improve different aspects of FPS gaming. Modes
+          such as sprint and
           survival improves the players' tracking of enemies in game while other modes such as blitz help in
           deathmatches
           where the purpose is to kill as many enemies as possible</p>
@@ -178,5 +183,7 @@
   </div>
   <script src="javascript/contactpage.js"></script>
   <script src="javascript/darkmode.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </footer>
+
 </html>
