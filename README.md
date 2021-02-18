@@ -1,6 +1,6 @@
 # ID_AimDotTrainer_Assignment3
 Assignment 3: Aim Dot Trainer
-This website allows users to play an "aim training" game, where they click on a target that randomly appears in a fixed play area. Depending on the different modes, this repeats for a certain number of point (1 target = 1 point), or a fixed time. There are a total of 4 modes to this game: Blitz, Sprint, Precision and Zen, which will be explained later on. 
+This website allows users to play an "aim training" game, where they click on a target that randomly appears in a fixed play area. Depending on the different modes, this repeats for a certain number of point (1 target = 1 point), or a fixed time. There are a total of 4 modes to this game: Blitz, Sprint, Precision and Zen, which will be explained later on. Additionally, a reddit API is used to show users various articles related to FPS aiming. 
 
 Design Process
 This project was made with the goal of allowing its users to play this aim trainer game in order to improve their reaction time and mouse accuracy, in order to enhance and improve their gameplay when playing various other First Person Shooter games. 
@@ -26,7 +26,8 @@ Existing Features
 - Feature 11 - The first portion of the index page features a carousel. which changes pictures either after a set interval or when the user clicks on the previous or next button. The bars at the bottom also indicate which picture is currently showing. 
 - Feature 12 - In the gamemode portion of the index page, when the user hovers over the picture of a gamemode, the picture expands, the opacity of the image gets lowered, and the name of the gamemode appears with a smooth animation. 
 - Feature 13 - In the last portion of the index page, the footer, it features two different forms, "Report a Bug" and "Contact Us", which opens up with an animation when the user clicks on their respective name. The user can then click on the down arrow at the bottom of the form to close up that respective form.
-- Feature 14 - A media query is used, which means that the website will reformat itself after becoming smaller than a width of 756px. In addition, the navbar also switches to a burger menu, which will expand the other options of the navbar when clicked on. 
+- Feature 14 - A media query is used, which means that the website will reformat itself after becoming smaller than a width of 756px. In addition, the navbar also switches to a burger menu, which will expand the other options of the navbar when clicked on.
+- Feature 15 - A reddit API is used to show posts related to improving aim in FPS games. The user can then click on the respective link to go to the full post.  
 
 
 Technologies Used
