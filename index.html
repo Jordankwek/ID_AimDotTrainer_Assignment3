@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aim Trainer - Get your aim in the game!</title>
-  <link rel="icon" href=Images/websitelogo.png type="image/x-icon">
+  <link rel="shortcut icon" type="image/x-icon" href="Images/websitelogo.ico" />
   <link rel="stylesheet" href="css/normalize.css" type="text/css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -17,10 +17,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">-->
 </head>
 
-<body class="body">
+<body class="body" onload="checkBg()">
   <img src="Images/websitebg.jpg" id="websitebackground">
   <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand d-flex justify-content-left " href="index.html">
+    <a class="navbar-brand d-flex justify-content-left " href="index.html" style = "margin-left: 40px;">
       <lottie-player draggable="false" id="aim" src="https://assets8.lottiefiles.com/packages/lf20_Yf29Ko.json"
         background="transparent" speed="1" style="position: relative; height: 30px; width: 30px;" loop autoplay></lottie-player>
       <p style="height: 10px;">Aim Trainer</p>
@@ -30,7 +30,7 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" style="margin-left: 20px;">
           <a class="nav-link dropdown-toggle" href="#modes" id="navbardrop">
             Play Games
           </a>
@@ -41,7 +41,7 @@
             <a class="dropdown-item text-light" href="precision.html">Precision</a>
           </div>
         </li>
-        <li class="nav-item"><a class="nav-link" onclick="changeBg()">Change Background</a></li>
+        <li class="nav-item" style="margin-left: 20px;"><a class="nav-link" onclick="changeBg()">Change Background</a></li>
       </ul>
     </div>
   </nav>
